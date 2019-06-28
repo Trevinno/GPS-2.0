@@ -1,0 +1,46 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:/opt/X11/bin:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Wireshark.app/Contents/MacOS:/Applications/Xamarin Workbooks.app/Contents/SharedSupport/path-bin
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  12.2.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: EACCES: permission denied, mkdir '/Users/Daru/Desktop/GPS-2.0/node_modules/send/node_modules/inherits'
+
+npm manifest: 
+  {
+    "name": "GPS-2.0",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": "git+https://github.com/Trevinno/GPS-2.0.git",
+    "keywords": [],
+    "author": "Ricardo <josericardo.trdz@gmail.com>",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Trevinno/GPS-2.0/issues"
+    },
+    "homepage": "https://github.com/Trevinno/GPS-2.0#readme",
+    "dependencies": {
+      "express": "^4.17.1",
+      "socketio": "^1.0.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
